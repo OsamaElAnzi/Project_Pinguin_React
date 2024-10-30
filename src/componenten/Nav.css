@@ -1,0 +1,16 @@
+.nav-link {
+    text-decoration: none;
+    color: #333333;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #4caf50;
+  }
+  

@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .infoBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .text {
+    width: 60%;
+  }
+  
+  .text p {
+    font-size: 1.1rem;
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .bron {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 0.9rem;
+  }
+  
+  .bron a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .bron a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Afbeelding styling */
+  .pinguinImage {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animaties */
+  .animate-text {
+    animation: slideInFromTop 1.2s ease-out;
+  }
+  
+  .animate-image {
+    animation: slideInFromRight 1.2s ease-out;
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  
